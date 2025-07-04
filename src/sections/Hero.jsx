@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
-import { CodeSimple, Stack, Lightning } from "phosphor-react";   // <-- Lägg till denna rad!
+import { CodeSimple, Stack, Lightning } from "phosphor-react";
 import avatarBox from "../assets/Avatar.png";
 import './Hero.css';
 
