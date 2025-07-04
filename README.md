@@ -3,7 +3,7 @@
 Välkommen till min personliga portfolio!  
 Här hittar du mina utvalda projekt, erfarenheter och kontaktuppgifter.
 
-🚀 Byggd med React, Vite, Tailwind CSS, och fräsch design.
+🚀 Byggd med React, Vite, CSS, och fräsch design.
 
 ## Funktioner
 - Modern och responsiv layout
