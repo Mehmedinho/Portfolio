@@ -1,0 +1,127 @@
+.timeline-section {
+  width: 100%;
+  min-height: 100vh;
+  padding: 60px 0 60px 0;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timeline-title {
+  font-size: 2.3rem;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+
+.timeline-container {
+  position: relative;
+  width: 90%;
+  max-width: 800px;
+  display: flex;
+}
+
+.timeline-line {
+  position: absolute;
+  top: 0;
+  left: 5.5%;                 
+  transform: translateX(-50%); 
+  width: 5px;               
+  height: 100%;
+  background: linear-gradient(to bottom, #48aaff, #a180ff);
+  z-index: 1;
+  border-radius: 12px;
+}
+
+.timeline-items {
+  width: 100%;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 60px;
+  position: relative;
+  min-height: 110px;
+}
+
+.timeline-dot {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #3b82f6 60%, #a855f7);
+  border: 4px solid #16171c;
+  position: absolute;
+  left: 29px;
+  top: 6px;
+  z-index: 2;
+  box-shadow: 0 2px 12px #a855f7cc;
+}
+
+.timeline-content {
+  margin-left: 80px;
+  padding: 24px 28px;
+  background: #18191e;
+  border-radius: 18px;
+  border: 1.5px solid #242536;
+  box-shadow: 0 8px 32px #00000030;
+  width: 100%;
+  color: #e6e6e6;
+}
+
+.timeline-year {
+  font-size: 1.05rem;
+  font-weight: bold;
+  color: #90a5f6;
+  margin-bottom: 7px;
+  letter-spacing: 1.2px;
+}
+
+.timeline-header {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 4px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.timeline-company {
+  font-size: 1.05rem;
+  color: #a855f7;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.timeline-location {
+  font-size: 1.02rem;
+  color: #aaa;
+  margin-bottom: 7px;
+  font-weight: 400;
+}
+
+.timeline-desc {
+  color: #c7c8ca;
+  font-size: 1.09rem;
+  margin-top: 3px;
+}
+
+ @media (max-width: 700px) {
+  .timeline-container {
+    width: 100%;
+  }
+  .timeline-content {
+    padding: 18px 12px;
+    margin-left: 60px;
+    font-size: 1rem;
+  }
+  .timeline-dot {
+    left: 22px;       
+  }
+  .timeline-line {
+    left: 37px;       
+  }
+}
+

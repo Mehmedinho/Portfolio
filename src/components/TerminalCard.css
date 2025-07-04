@@ -1,0 +1,15 @@
+.terminal-card-terminal {
+  font-family: 'Fira Mono', 'Menlo', 'Consolas', monospace !important;
+  color: #39ff14 !important; /* riktig neon-grön */
+  font-size: 1.07rem;
+  background: transparent;
+  white-space: pre-wrap;
+  line-height: 1.7;
+  text-shadow: 0 0 8px #2cf60960, 0 0 2px #273225a0;
+  letter-spacing: 0.01em;
+}
+
+.text-white {
+  color: #fff;
+  font-weight: bold;
+}
